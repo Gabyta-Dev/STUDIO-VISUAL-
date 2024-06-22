@@ -12,11 +12,29 @@
 </head>
 <body>
     <header>
-        <nav>
-            <li><a href="">HOME</a></li>
-            <li><a href="">PORTRAIT</a></li>
-            <li><a href="">CONTACT</a></li>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-body-transparent">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Studio Visual</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portrait</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                  </li>
+                </ul>
+                  <input type="text" placeholder="como podemos ayudarte?" >
+                  <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </nav>
     </header>
     <main>
      <div class="titulo">
@@ -27,10 +45,14 @@
 </section>
 
     <!--GALERIA DE IMAGENES------------------------------>
-    <div class="divGaleria">
-        <h2> ÌNSPIRATE</h2>
-        <p>
+    <div class="divMainContainer">
+        <div>
+            <h2> ÌNSPIRATE</h2>
+        </div>
+        <div>
+            <p>
             Dale forma a tu espacio con las tendencias más relajantes de 2024: conciencia, minimalismo, tonos relajantes y curvas suaves.</p>
+        </div>
     </div>  
     <section class="galeria">
         <a href="#imagen1"><img src="./img/uno.jpg" alt=""></a>
@@ -104,21 +126,45 @@
   </section>
 </main>
     <footer>
-        <span class="linea"></span>
-     <section class="pie">
+        <!--LINK DE REDES SOCIALES ----------->
+        <section class="footerRedes">
+            <h4>STUDIO VISUAL IDENTITY & WEB DESIGN</h4>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </section>
+        <!--PIE DE PAGINA CON DATOS IMPORTANTES-->
+     <section class="footerSection">
+        <div class="footerDivUno">
          <ul>
-            <li>Social Media</li>
-            <li>Experiencias</li>
-            <li>Productos</li>
+            <li>Menú</li>
+            <li>Home</li>
+            <li>Portrait</li>
             <li>Nosotros</li>
-         </ul>
-         <ul>
-            <li>Futuros Proyectos </li>
             <li>Contacto</li>
          </ul>
-     <section>
+       </div>
+     
+            <ul>
+                <li>Blog</li>
+                <li>Novedades</li>
+                <li>Espacios</li>
+                <li>Experiencias</li>
+                <li>Profesionales</li>
+            </ul>
+            <ul>
+                <li>Contactanos</li>
+                <li>Solicitá muestras gratis</li>
+                <li>Legal</li>
+                <li>Términos y Condiciones</li>
+                <li>Política de privacidad</li>
+            </ul>
+        </section>
+        <section class="footerEnd">
+         <h4>Redecorar tu hogar puede ser muy sencillo con la ayuda adecuada.</h4>   
         <h4>Desing & Confort </h4>
      <h5>Todos los derechos reservados 2022</h5>
+    </section>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
