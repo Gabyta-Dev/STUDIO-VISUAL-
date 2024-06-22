@@ -28,9 +28,16 @@ a {
 input{
     font-family: Georgia, 'Times New Roman', Times, serif!important; 
     font-size:17px; 
-    background-color: transparent;
+    background-color: transparent!important;
     color: #898375;
      
+}
+.fa-solid{
+    color: #898375;
+}
+
+.navbar{
+    color: #898375!important;
 }
 
 
@@ -57,22 +64,21 @@ input{
     align-content: center;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap:10rem;
     height:30rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .divMainContainer h2 {
-    margin-left:60px;
     font-size: 2em;
     color: #898375;
 }
 .divMainContainer P{
-    padding: 25px;
+
     font-size: 1.5em;
     color: #898375;
 }
-
 
 .galeria {
     position: relative;
@@ -110,7 +116,7 @@ input{
     position: fixed;
     top: 0;
     left: 0;
-    background: rgba(65, 64, 64, 0.651);
+    background: #222222;
     width: 100%;
     height: 100vh;
     z-index: 1000;
@@ -130,23 +136,23 @@ input{
 /**CUANDO HAGA CLICK SE ABRE LA IMG**********/
 .box:target {
     transform: scale(1);
-    filter: saturate(2.1);
+    filter: saturate(1.1);
+    -webkit-filter: saturate(1.1);
 }
 
-/***CRIZ CLOSE ******/
+/***CRUZ CLOSE ******/
 .fa-xmark {
-    color: rgb(255, 255, 255);
+    color:#898375;
     font-size: 30px;
 }
 
 .close {
     display: block;
     position: absolute;
-    top: 50px;
-    right: 100px;
-    width: 40px;
-    height: 40px;
-    text-align: center;
+    top:1%;
+    right: 20px;
+    width: 30px;
+    height: 30px;
     text-decoration: none;
 }
 
@@ -159,13 +165,13 @@ input{
 }
 
 .fa-arrow-left {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+   color:#898375;
+    font-size: 20px;
 }
 
 .fa-arrow-right {
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+   color:#898375;
+    font-size: 20px;
 }
 
 /****SECCION WHITE***************/
@@ -261,3 +267,4 @@ input{
 .footerEnd h5 {
     font-size: 15px;
 }
+
